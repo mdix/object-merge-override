@@ -2,12 +2,13 @@
   "name": "object-merge-override",
   "version": "0.1.0",
   "description": "Merge object properties from multiple objects into one",
-  "main": "index.js",
+  "main": "object-merge-override.js",
+  "repository": "https://github.com/mdix/object-merge-override",
   "scripts": {
     "test": "mocha test/"
   },
   "author": "Marc Dix",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "sort-object": "^0.3.1"
   },
