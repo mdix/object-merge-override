@@ -1,8 +1,9 @@
 object-merge-override
 =====================
+Merge object properties from multiple objects into one object. I used this to merge config objects. 
 
-Merge object properties from multiple objects into one object. I used this to merge config objects. Example:
-
+Example:
+========
 You can configure via: commandline args, config file, default config.
 
 The default config provides default values for everything. The values can be overriden by config file or commandline args.
