@@ -15,6 +15,9 @@ The tests might provide you with some better information on how object-merge-ove
 
 usage
 =====
+Install via: `npm install --save object-merge-override`
+
+Then use it in your script:
 ```
 require merge_override('object-merge-override');
 
