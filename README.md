@@ -23,6 +23,7 @@ require merge_override('object-merge-override');
 
 mergedObject = new merge_override({1: commandlineArgs, 2: configFile, 3: defaultConfig});
 ```
+The object keys (numbers) mark the precedence. If a key is defined in the object of '1' (called commandlineArgs in this example), all following values are ignored (from the objects 2 and 3). If the key is undefined, merge_override checks object '2' (configFile) and so on...  
 
 
 
